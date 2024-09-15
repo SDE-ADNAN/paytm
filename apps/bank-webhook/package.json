@@ -1,5 +1,5 @@
 {
-  "name": "@repo/bank-webhook",
+  "name": "bank-webhook",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -8,5 +8,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "@repo/db":"*",
+    "@types/express": "^4.17.21",
+    "esbuild": "^0.23.1",
+    "express": "^4.21.0"
+  }
 }
